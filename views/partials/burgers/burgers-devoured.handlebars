@@ -1,0 +1,13 @@
+<tr>
+	<td>
+		{{#if devoured}}{{id}}{{/if}}
+	</td>
+	<td>
+		{{#if devoured}}{{burger_name}}{{/if}}
+	</td>
+    <td>
+        <button class="btn btn-disabled" data-id="{{id}}" data-burger="{{devoured}}">
+        {{#if devoured}}Devoured{{/if}}
+        </button>
+	</td>
+</tr>
